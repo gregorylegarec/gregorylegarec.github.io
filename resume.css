@@ -1,11 +1,15 @@
+/**
+ * Palette : http://www.colourlovers.com/palette/148712/Gamebookers
+ */
+
 body {
 	font-family: 'Roboto';
 
 	padding: 0;
 	margin: 0;
 
-	color: #333;
-	background-color: #cccccf;
+	color: #424242;
+	background-color: #e9e9e9;
 
 	font-size: 16px;
 	line-height: 1.3em;
@@ -16,12 +20,17 @@ body > * {
 }
 
 header {
-	background-color: #ddd;
+	color: #BCBCBC;
+	background-color: #3299BB;
 	text-align: center;
 	font-size: 1.5em;
 	line-height: 1.677em;
 	padding: 1.5em 0.5em;
- 	border-bottom: 0.25em solid white;
+ 	border-bottom: 0.25em solid #BCBCBC;
+}
+
+h1 {
+	color: #e9e9e9;
 }
 
 section > * {
@@ -41,11 +50,14 @@ h2 {
 }
 
 dt {
-	color: #667;
+	color: #FF9900;
 	font-weight: bold;
 	font-size: 1.5em;
 	line-height: 1.677em;
-	margin-top: 3.354em;
+}
+
+dd + dt {
+	margin-top: 1.677em;
 }
 
 dd {
@@ -53,12 +65,7 @@ dd {
 }
 
 .period {
-	color: #eee;
-	font-style: italic;
+	color: #BCBCBC;
 	font-size: 1.2em;
 	margin-top: 0;
-}
-
-.period + p {
-
 }

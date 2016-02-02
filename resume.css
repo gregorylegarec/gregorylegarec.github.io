@@ -15,6 +15,10 @@ body {
 	line-height: 1.3em;
 }
 
+a {
+	color: #3299BB;
+}
+
 body > * {
 	padding: 0 1em;
 }

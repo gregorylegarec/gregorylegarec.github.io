@@ -47,10 +47,6 @@ section > * {
 	margin-right: auto;
 }
 
-h1, h2, h3, h4, h5 {
-	text-shadow: 0 .1em .1em rgba(128,128,128,.3);
-}
-
 h2 {
 	text-align: center;
 	font-size: 2em;

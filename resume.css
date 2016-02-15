@@ -9,7 +9,7 @@ body {
 	margin: 0;
 
 	color: #424242;
-	background-color: #e9e9e9;
+	background-color: #fff;
 
 	font-size: 16px;
 	line-height: 1.3em;
@@ -24,17 +24,18 @@ body > * {
 }
 
 header {
-	color: #BCBCBC;
+	color: #72c0da;
 	background-color: #3299BB;
 	text-align: center;
 	font-size: 1.5em;
 	line-height: 1.677em;
-	padding: 1.5em 0.5em;
- 	border-bottom: 0.25em solid #BCBCBC;
+	padding: 3.334em 0.5em;
+ 	border-bottom: 0.25em solid #72c0da;
 }
 
 .portrait {
 	border-radius : 50%;
+	border: 0.25em solid #fff;
 }
 
 h1 {
@@ -51,10 +52,12 @@ h2 {
 	text-align: center;
 	font-size: 2em;
 	line-height: 1.8125em;
+	margin-top: 3.625em;
+	color: #ff8080;
 }
 
 dt {
-	color: #FF9900;
+	color: #bbb;
 	font-weight: bold;
 	font-size: 1.5em;
 	line-height: 1.677em;

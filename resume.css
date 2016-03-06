@@ -70,3 +70,7 @@ dd + dt {
 dd {
 	margin: 0;
 }
+
+footer {
+	text-align: center;
+}
